@@ -39,6 +39,7 @@ const Resultado = () =>{
 
       <Link to="/Perguntas2"><button >voltar</button></Link>
       <Link to="/"><button onClick={zerar}>Nova Pesquisa</button></Link>
+      <Link to="/APIresult"><button >PagApi</button></Link>
     </div>
   );
 }

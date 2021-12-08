@@ -6,6 +6,7 @@ import  Pag1  from './pages/Pag1';
 import  Perguntas  from './pages/Perguntas';
 import  Resultado  from './pages/Resultado';
 import Perguntas2 from "./pages/Perguntas2";
+import ApiResult from "./pages/APIresult";
 
 
 
@@ -17,6 +18,7 @@ const routes = () => {
            <Route  path="/Perguntas" element={<Perguntas/>} />
            <Route  path="/Perguntas2" element={<Perguntas2/>}/>
            <Route  path="/Resultado" element={<Resultado/>}/>
+           <Route  path="/APIresult" element={<ApiResult/>}/>
         </Routes>    
        </BrowserRouter>
    )

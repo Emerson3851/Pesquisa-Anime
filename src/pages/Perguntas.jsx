@@ -7,10 +7,10 @@ import { useStoreState, useStoreActions } from 'easy-peasy';
 const Perguntas = () =>{
 
 
-  const radioStoreOtaku = useStoreState(state => state.radioOtaku);
+  const radioStoreOtaku = useStoreState(state => state.Otaku);
   const setOtakuStore = useStoreActions(state => state.setOtaku)
 
-  const radioQtAnimeStore = useStoreState(state => state.radioQtAnime);
+  const radioQtAnimeStore = useStoreState(state => state.QtAnime);
   const setQtAnimelStore = useStoreActions(state => state.setQtAnime)
 
   const [radioOtaku,setOtaku] = useState(radioStoreOtaku);
